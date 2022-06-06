@@ -16,7 +16,7 @@ Pour accéder au site en local : `http://localhost:8080/`
 
 Temps approximatif passé : 
 
-HTML / CSS : 2h30
-JS : 2h
-SQL : 10 min
-PHP : 3-4h
+- HTML / CSS : 2h30
+- JS : 2h
+- SQL : 10 min
+- PHP : 3-4h
