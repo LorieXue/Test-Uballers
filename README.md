@@ -11,3 +11,12 @@ Aller dans le dossier décompressé.
 Création d'un serveur local : `php -S localhost:8080` ou `php -S localhost:8080 -t dossier_décompressé`
 
 Pour accéder au site en local : `http://localhost:8080/`
+
+
+
+Temps approximatif passé : 
+
+HTML / CSS : 2h30
+JS : 2h
+SQL : 10 min
+PHP : 3-4h
