@@ -8,4 +8,4 @@ Aller dans le dossier décompressé.
 
 Création d'un serveur local : `php -S localhost:8080` ou `php -S localhost:8080 -t dossier_décompressé`
 
-Pour accéder au site : `http://localhost:8080/`
+Pour accéder au site en local : `http://localhost:8080/`
