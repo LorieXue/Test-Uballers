@@ -1,8 +1,8 @@
 # Test-Uballers
 
 Le fichier `db.php` doit éventuellement être modifié, si l'une des données à la connexion du root est fausse :
--Nom d'utilisateur : 'root'   (ligne 3 | $db_username = 'root'; )
--mot de passe : ''  (ligne 4 | $db_password = ''; )
+- Nom d'utilisateur : 'root'   (ligne 3 | $db_username = 'root'; )
+- mot de passe : ''  (ligne 4 | $db_password = ''; )
 
 Aller dans le dossier décompressé. 
 
