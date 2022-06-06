@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Facebook - Connexion ou inscription</title>
+</head>
+
+<body>
+    <div class="main">
+        <!-- partie connexion -->
+        <div class="connexion">
+            <form action="" class="form-connexion" method="post">
+                <div class="mail-mobile">
+                    <label for="mail-mobile">Adresse e-mail ou mobile</label>
+                    <input type="tel" name="mail-mobile" class="mobile" placeholder="Votre login" required />
+                </div>
+
+                <div class="mdp">
+                    <label for="mdp">Mot de passe</label>
+                    <input type="password" name="mdp" placeholder="Votre mot de passe" required />
+                    <a href=""> informations de comptes oubliées ? </a>
+                </div>
+
+                <div class="button">
+                    <button class="btn-connexion" type="submit" name="form" value="connexion">
+                        Connexion
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Partie Inscription -->
+        <div class="inscription">
+            <form action="" class="form-inscription" method="post">
+                <div class="title">
+                    <h1>Inscription</h1>
+                    <span>C'est gratuit (et ça le restera toujours) </span>
+                </div>
+
+                <div class="input">
+                    <input type="text" name="prenom" placeholder="Prénom" size="20" required />
+                    <input type="text" name="nom" placeholder="Nom de famille" size="20" required />
+                    <input type="tel" name="mail-mobile" placeholder="Numéro de mobile ou email" required />
+                    <input type="tel" placeholder="Confirmer numéro de mobile ou email" required />
+                    <input type="password" name="mdp" placeholder="Nouveau mot de passe" required />
+                </div>
+
+                <div class="date-naissance">
+                    <div class="title">
+                        <h4>Date de naissance</h4>
+                    </div>
+
+                    <div class="select">
+                        <select name="jour" id="jour" required></select>
+                        <select name="mois" id="mois" required></select>
+                        <select name="annee" id="annee" required></select>
+                    </div>
+
+                    <div class="pourquoi">
+                        <span>Pourquoi indiquer ma date de naissance ?</span>
+                    </div>
+                </div>
+
+                <div class="sexe">
+                    <div class="femme">
+                        <input type="radio" name="sexe" value="femme" required />
+                        <label for="sexe" class="genre">Femme</label>
+                    </div>
+
+                    <div class="homme">
+                        <input type="radio" name="sexe" value="homme" required />
+                        <label for="sexe" class="genre">Homme</label>
+                    </div>
+                </div>
+
+                <div class="conditions">
+                    <p>
+                        En cliquant sur Inscription vous acceptez nos
+                        <a href="">Conditions</a> et indiquez que vous avez lu notre
+                        <a href="">Politique d'utilisation des données</a>, y compris
+                        notre <a href="">Utilisation des cookies</a>. Vous pourrez
+                        recevoir des notifications par texto de la part de Facebook et
+                        pouvez vous désabonner à tout moment.
+                    </p>
+                </div>
+
+                <div class="button">
+                    <button name="form" value="inscription" type="submit">
+                        <strong>Inscription</strong>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
