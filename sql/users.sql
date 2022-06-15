@@ -1,10 +1,6 @@
 CREATE DATABASE Users;
 USE Users;
 
-
-DROP TABLE USER_MAIL;
-DROP TABLE USER_TEL;
-
 CREATE TABLE USER_MAIL (
 prenom varchar(20),
 nom varchar(20),
